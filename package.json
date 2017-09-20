@@ -1,0 +1,19 @@
+{
+  "name": "industry-labs-produktionsstrasse-uploader",
+  "version": "1.0.0",
+  "description": "Uploads events created by the Produktionsstrasse",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.ibm.com:Timon-Lukas/industry-labs-produktionsstrasse-uploader.git"
+  },
+  "author": "Jonas Noll <jonas.noll@de.ibm.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ibmiotf": "^0.2.38",
+    "moment": "^2.18.1"
+  }
+}
