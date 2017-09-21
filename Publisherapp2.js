@@ -35,7 +35,8 @@ const connectionHandler = () => {
                         if (error !== null) {                               //wenn es einen Fehler gibt dann throw error
                             throw error;
                         }
-
+                        
+                        console.log(data);
 
                         const content = data.toString();                       // Daten werden in eine variable als String gespeichert //.toString ist ne funktion von Data => Data werden toString (zum String gewandelt)
 
