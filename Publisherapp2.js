@@ -49,7 +49,7 @@ const connectionHandler = () => {
 
                         alreadyUploaded.push(filePath);                        //Dateipfad in Array speichern
                         console.log(filePath);
-                        console.log(obj);
+                        
 
                         if (obj['Station name'] === 'Pick & Place temp sensor' || obj['Station Name'] === 'Pick & Place cover') {
 
