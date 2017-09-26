@@ -4,12 +4,12 @@ const moment = require('moment');
 const ibmiotf = require('ibmiotf');                            //ibmiotf (das hat schon jemand geschrieben und wird hier benutzt)
 
 const gatewayClient = new ibmiotf.IotfGateway({                  //neuer Client als IoT device mit mienem Acc und den nötigen Daten erzeugen
-    org: 'tkswmp',
-    id: 'Fortiss1',
+    org: '1emz12',
+    id: 'ip.fortiss.laptop',
     domain: 'internetofthings.ibmcloud.com',                     //Daten aus dem erzeugten Gerät in Bluemix
-    type: 'Bridge',
+    type: 'ip.fortiss.gateway',
     'auth-method': 'token',
-    'auth-token': 'Fortiss12345678'
+    'auth-token': 'neLE+&rD!AHLKXm*95'
 });
 
 gatewayClient.connect();                                          // Funktion die sagt, bau ne Verbindung auf
